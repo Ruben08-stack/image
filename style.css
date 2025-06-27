@@ -1,0 +1,32 @@
+body {
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: pink;
+    padding: 20px;
+}
+
+.image__title {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+}
